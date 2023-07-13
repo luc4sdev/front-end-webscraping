@@ -24,7 +24,7 @@ interface Data {
 }
 
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://web-scraping-ixfb.onrender.com");
 
 export const sendForexTag = (tag: string, url: string): Promise<Data> => {
 
